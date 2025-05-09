@@ -1,5 +1,5 @@
 {% set name = "matchpoint" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/matchpoint-{{ version }}.tar.gz
-  sha256: 5910c87f64f729c3376b24188b41ba3334a5c8e7ffae86f309ea9cc226a1ac60
+  sha256: d259cac73e7c52269fc267de202e964c037a4746becb461a1373138796feef5b
 
 build:
   noarch: python
