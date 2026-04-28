@@ -44,12 +44,12 @@ test:
     - python
 
 about:
-  home: https://github.com/Chirlmin-Joo-lab/matchpoint
+  homepage: https://github.com/Chirlmin-Joo-lab/matchpoint
   summary: A package for performing point set registration.
   license: GPL-3.0-or-later
   license_file: LICENSE
-  doc_url: https://matchpoint.readthedocs.io/
-  dev_url: https://github.com/Chirlmin-Joo-lab/matchpoint
+  documentation: https://matchpoint.readthedocs.io/
+  repository: https://github.com/Chirlmin-Joo-lab/matchpoint
 
 extra:
   recipe-maintainers:
