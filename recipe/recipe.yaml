@@ -34,7 +34,7 @@ requirements:
     - tqdm
     - xarray >=2024.07
 
-test:
+tests:
   imports:
     - matchpoint
   commands:
