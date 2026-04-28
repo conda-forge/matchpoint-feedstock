@@ -39,8 +39,6 @@ tests:
       imports:
         - matchpoint
       pip_check: true
-  - requires:
-      - pip
 
 about:
   homepage: https://github.com/Chirlmin-Joo-lab/matchpoint
