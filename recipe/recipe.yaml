@@ -35,13 +35,12 @@ requirements:
     - xarray >=2024.07
 
 tests:
-  imports:
-    - matchpoint
-  commands:
-    - pip check
-  requires:
-    - pip
-    - python
+  - python:
+    imports:
+      - matchpoint
+    pip_check: true
+    requires:
+      - pip
 
 about:
   homepage: https://github.com/Chirlmin-Joo-lab/matchpoint
